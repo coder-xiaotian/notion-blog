@@ -36,8 +36,7 @@ export const FooterImpl: React.FC = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>
-        <span>Copyright {new Date().getFullYear()} {config.author}</span>
-        <a href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer">湘ICP备2023003413号-1</a>
+        <span>Copyright {new Date().getFullYear()} {config.author}</span> <a href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer">湘ICP备2023003413号-1</a>
       </div>
 
       <div className={styles.settings}>
