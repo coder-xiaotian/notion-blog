@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: '爱码er',
   domain: 'justcodeit.cn',
-  author: 'xiao tian',
+  author: '啸天',
 
   // open graph metadata (optional)
   description: '爱码er - 做一个快乐的代码搬运工',
