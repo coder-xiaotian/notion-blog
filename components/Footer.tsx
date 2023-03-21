@@ -36,7 +36,17 @@ export const FooterImpl: React.FC = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>
-        <span>Copyright {new Date().getFullYear()} {config.author}</span> <a href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer">湘ICP备2023003413号-1</a>
+        <span>Copyright {new Date().getFullYear()} {config.author}</span>
+        <div style={{width: "300px", margin: "0 auto", padding: "20px 0"}}>
+          <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502009845"
+             style={{display: "inline-block", textDecoration: "none", height: "20px", lineHeight: "20px"}}
+             rel="noreferrer"
+          >
+            <img src="/备案图标.png" style={{float: "left"}}/>
+            <p style={{float: "left", height: "20px", lineHeight: "20px", margin: "0px 0px 0px 5px", color: "#939393"}}>粤公网安备 44030502009845号</p>
+          </a>
+        </div>
+        <a href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer">湘ICP备2023003413号-1</a>
       </div>
 
       <div className={styles.settings}>

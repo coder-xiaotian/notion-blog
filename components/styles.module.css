@@ -139,6 +139,9 @@
     order: 2;
   }
   .footer .copyright {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
     order: 3;
   }
 }
